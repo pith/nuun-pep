@@ -1,5 +1,7 @@
 package io.nuun.kernel.fluent;
 
+import io.nuun.kernel.external.Specification;
+
 public interface ConfigurationBuilder {
     ConfigurationBuilder after(Class<?> theClass);
 

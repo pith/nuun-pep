@@ -1,5 +1,7 @@
 package io.nuun.kernel.fluent;
 
+import io.nuun.kernel.external.Specification;
+
 import java.net.URL;
 import java.util.Collection;
 

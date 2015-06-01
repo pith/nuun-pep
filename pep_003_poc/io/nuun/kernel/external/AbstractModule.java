@@ -1,4 +1,4 @@
-package io.nuun.kernel.fluent;
+package io.nuun.kernel.external;
 
 public abstract class AbstractModule {
     protected BindToClass bind(final Class<?> aClass) {

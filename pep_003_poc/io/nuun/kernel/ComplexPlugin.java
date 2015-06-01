@@ -1,16 +1,16 @@
 package io.nuun.kernel;
 
 import io.nuun.kernel.fluent.AbstractFluentPlugin;
-import io.nuun.kernel.fluent.Factory;
-import io.nuun.kernel.fluent.SomeTrait;
-import io.nuun.kernel.fluent.AbstractModule;
+import io.nuun.kernel.external.Factory;
+import io.nuun.kernel.external.SomeTrait;
+import io.nuun.kernel.external.AbstractModule;
 import io.nuun.kernel.fluent.ConfigurationBuilder;
 import io.nuun.kernel.fluent.InitContext;
 import io.nuun.kernel.fluent.ModuleInstaller;
-import io.nuun.kernel.fluent.MyImplementationSpecification;
-import io.nuun.kernel.fluent.MyInterfaceSpecification;
-import io.nuun.kernel.fluent.PrivateModule;
-import io.nuun.kernel.fluent.SomeOtherTrait;
+import io.nuun.kernel.external.MyImplementationSpecification;
+import io.nuun.kernel.external.MyInterfaceSpecification;
+import io.nuun.kernel.external.PrivateModule;
+import io.nuun.kernel.external.SomeOtherTrait;
 
 import java.io.IOException;
 import java.util.HashMap;

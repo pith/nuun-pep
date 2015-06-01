@@ -1,4 +1,4 @@
-package io.nuun.kernel.fluent;
+package io.nuun.kernel.external;
 
 public interface Specification<T> {
     boolean isSatisfiedBy(Class<? extends Factory> aClass);

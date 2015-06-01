@@ -1,6 +1,6 @@
-package io.nuun.kernel.fluent;
+package io.nuun.kernel.external;
 
-public class MyImplementationSpecification implements Specification<Class<? extends Factory>>{
+public class MyInterfaceSpecification implements Specification<Class<? extends Factory>> {
     @Override
     public boolean isSatisfiedBy(Class<? extends Factory> aClass) {
         return false;

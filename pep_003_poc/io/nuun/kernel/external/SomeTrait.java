@@ -1,4 +1,4 @@
-package io.nuun.kernel.fluent;
+package io.nuun.kernel.external;
 
 public interface SomeTrait {
     void doSomething();
